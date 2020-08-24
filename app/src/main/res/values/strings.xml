@@ -1,0 +1,159 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">CovidTracker</string>
+
+    <!--    GLOBAL STRING ASSET-->
+    <string name="null_text" translatable="false">null</string>
+    <string name="loading_text" tools:ignore="TypographyEllipsis">Loading...</string>
+
+    <!--    WEB VIEW STRING ASSET-->
+    <string name="web_view_loading_page" tools:ignore="TypographyEllipsis">The page is loading...</string>
+
+    <!--    BOTTOM SHEET DONATE REDIRECT ASSET-->
+    <string name="donate_desc">Help those affected by the COVID-19 pandemic by donating through the platform pmcares.gov.in</string>
+    <string name="donate_footer1">All rights reserved to pmcares</string>
+    <string name="donate_footer2" translatable="false">© 2020 PRIME MINISTER OFFICE </string>
+
+    <!--    BOTTOM SHEET PRIXA REDIRECT ASSET-->
+    <string name="prixa_title">You will be redirected to</string>
+    <string name="prixa_desc">The artificial intelligence system that Prixa.ai provides will detect covid-19 symptoms that you may experience.</string>
+    <string name="prixa_footer1">All rights reserved to Prixa.ai</string>
+    <string name="prixa_footer2" translatable="false">© prixa.ai</string>
+
+    <!--    FRAGMENT HOME STRING ASSET-->
+    <string name="home_country_ina" translatable="false">IND</string>
+    <string name="home_header">Are you feeling sick?</string>
+    <string name="home_desc">
+If you feel sick with covid-19 symptoms, immediately contact emergency services to be treated immediately.</string>
+    <string name="home_call">Telepone</string>
+    <string name="home_website">Website</string>
+    <string name="home_news_header">News</string>
+    <string name="home_global_data">Global Data</string>
+    <string name="home_confirmed">Confirmed</string>
+    <string name="home_death">Died</string>
+    <string name="home_recovered">Recovered</string>
+    <string name="home_preventive_header">Prevention</string>
+    <string name="home_preventive1">Keep a Social Distance</string>
+    <string name="home_preventive2">Wash your hands frequently</string>
+    <string name="home_preventive3">Wear a mask</string>
+    <string name="home_donate_header">Donate now!</string>
+    <string name="home_donate_desc">Give your hand to those affected by this pandemic</string>
+    <string name="home_test_header">Test now!</string>
+    <string name="home_test_desc">Follow the steps according to instructions</string>
+
+    <!--    FRAGMENT INFO STRING ASSET-->
+    <string name="info_title">Information</string>
+    <string name="info_desc" translatable="false">Version 1.1 © CovidTracker App 2020</string>
+    <string name="info_desc2" translatable="false">Developed by</string>
+    <string name="info_contact_me" translatable="false">Contact Me</string>
+    <string name="info_ayub_dev" translatable="false">Utsav Devadiga</string>
+    <string name="info_acknowledgement">Acknowledgments</string>
+    <string name="info_ack1">Data information by covid19india.org</string>
+    <string name="info_ack2">UI Design by simantOo for Nickelfox (free use)</string>
+    <string name="info_ack3">Illustrated image design by freepik.com (free use)</string>
+    <string name="info_ack4">News data by newsapi.org</string>
+    <string name="info_ack5">Health tests with artificial intelligence by prixa.ai</string>
+    <string name="info_ack6">Distribution of donations by pmcares.gov.in</string>
+    <string name="info_ack7">Data global COVID-19 by covid19.mathdro.id</string>
+    <string name="info_ack8">Animation of medical officers by Paulo Bañas from lottiefiles.com</string>
+    <string name="info_term">Usage</string>
+    <string name="info_lang_title">Language</string>
+
+    <!--    FRAGMENT MAPS STRING ASSET-->
+    <string name="maps_title">Cases Per Province</string>
+
+    <!--    FRAGMENT STATS STRING ASSET -->
+    <string name="stat_title">Statistics</string>
+    <string name="stat_subtitle">Last updated</string>
+    <string name="stat_positive">Confirmed</string>
+    <string name="stat_death">Died</string>
+    <string name="stat_cured">Recovered</string>
+    <string name="stat_monitoring">Active</string>
+    <string name="stat_patient">Migrated</string>
+    <string name="stat_cumulative_cases">Cumulative Case</string>
+    <string name="stat_condition_positive_cases">Positive Accompanying Conditions</string>
+    <string name="stat_positive_symptom_cases">Positive Symptoms</string>
+    <string name="stat_age_group_cases">Age group</string>
+    <string name="stat_sex_group_cases">Gender</string>
+
+    <!--    INFO WINDOW PROV STRING ASSET-->
+    <string name="info_window_prov_cases">Cases: "</string>
+    <string name="info_window_prov_death">"Died: "</string>
+    <string name="info_window_prov_cured">"Recovered: "</string>
+    <string name="info_window_prov_treated">"Active: "</string>
+    <string name="info_window_prov_subtitle">Of all cases in India</string>
+    <string name="info_window_prov_subtitle2">Case Based Data:</string>
+    <string name="info_window_prov_sex">Gender:</string>
+    <string name="info_window_prov_age">Age:</string>
+
+    <!--    PROVINCE LAYOUT STRING ASSET-->
+    <string name="prov_layout_search" tools:ignore="TypographyEllipsis">Search the provinces ...</string>
+
+    <!--    PREVENTIVE STRING ASSET-->
+    <string name="about">
+        This application is not intended for anyone who makes this application as a benchmark against
+        covid-19 information although all information in this application is downloaded from the unofficial covid-19 website
+        India (covid19india.org). But this application is intended for software developer activists to explore
+        its potential in developing an application which in this case is intended for a personal portfolio.
+        If the user feels disadvantaged when using this application, all full responsibility is left to
+        the user. But if the user feels benefited, it is possible that the user can provide positive feedback on
+        I personally through the contact provided. Mumbai, 2020
+    </string>
+    <string name="social_distancing">
+        With social distancing, the risk of contracting COVID-19 from others will be reduced. Conversely, if you turn out
+        infected but not aware of it, so keeping away from the crowd will really help prevent the spread. \ n \ n
+        So, if someone infected with this virus then accidentally coughs or sneezes without closing his mouth,
+        then the droplet will fall on a nearby surface. When there are other people who are not infected holding
+        the surface, then touches the mouth, nose or eyes without washing hands first, so he is at risk
+        high infected. \ n \ nThis is what makes the transmission of this disease rise dramatically in a short time.
+        Many people who are not aware that they are infected, then go to various locations to meet friends
+        and relatives. As a result, the spread of this virus is increasingly widespread.
+    </string>
+    <string name="social_distancing_citation" translatable="false">
+        Source: https://www.thehindu.com/opinion/lead/social-distancing-from-the-powerless/article31617566.ece
+    </string>
+
+    <string name="wash_hand">
+       The World Health Organization (WHO) recommends that everyone always wash their hands
+        in order to prevent the spread of the COVID-19 corona virus. Clean your hands regularly and thoroughly with soap
+        and water or alcohol-based liquids. \ n \ nWash your hands with soap and water or use cleaning fluid
+        alcohol-based can kill viruses that may be in your hands. Washing hands can get you
+        stay healthy and prevent the spread of respiratory infections and diarrhea from one person to another. \ n \ nGerms can
+        spread from other people or surfaces when you: \ n1. Touch your eyes, nose, and mouth with hands
+        not washed. \ n2. Eat or prepare food and drinks with your hands not washed. \ N3. Touch the surface
+        or contaminated object. \ n4. Flinches, coughs, or sneezes on the hands and then touches the hands
+        other people or objects.
+    </string>
+    <string name="wash_hand_citation" translatable="false">
+       Source: https://www.nationalheraldindia.com/opinion/coronavirus-may-change-indians-aversion-towards-hand-washing
+    </string>
+
+    <string name="wear_mask">
+       Research from the University of Hong Kong and the University of Maryland found that masks
+        simple blocking 100 percent of droplets and aerosols. The Guardian writes, countries that are
+        has required the use of masks from the beginning to show a lower mortality rate than
+        countries that don\'t enforce it. \ n \ nHowever, the big challenge is using masks only
+        will work if most people use it. Analysis from the Food and Drug Administration (FDA)
+        about the flu estimates, if 50 percent of the population uses masks, transmission of the virus can be reduced
+        by half. Meanwhile, if 80 percent of the population uses masks, the virus can be lost. \ N \ nBecause
+        that, various regions are currently adopting laws that require the use of masks in crowded places
+        such as public transportation and shops.
+    </string>
+    <string name="wear_mask_citation" translatable="false">
+       Source: https://timesofindia.indiatimes.com/india/why-masks-are-our-best-defence/articleshow/76379587.cms
+    </string>
+    <string name="menu_home">Home</string>
+    <string name="menu_stats">Statistics</string>
+    <string name="menu_maps">Map</string>
+    <string name="menu_info">Information</string>
+    <string name="stat_updated_cases">New Cases</string>
+    <string name="rateme">Rate This App</string>
+    <string name="yourName">Your Name</string>
+    <string name="say">Say Something</string>
+    <string name="ratemetime">Rate Me</string>
+    <string name="feedback">Feedback</string>
+    <string name="sent">Feedback Sent</string>
+    <string name="send">send</string>
+    <string name="okay">Okay</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+</resources>
