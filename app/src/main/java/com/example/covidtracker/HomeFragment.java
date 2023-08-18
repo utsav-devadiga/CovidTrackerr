@@ -241,11 +241,16 @@ public class HomeFragment  extends Fragment  {
         });
 
         globalDataViewModel.getGlobalData().observe(this, globalData -> {
-            Timber.d(String.valueOf(globalData.getConfirmed().getTheValue()));
-            Timber.d(String.valueOf(globalData.getDeath().getTheValue()));
-            Timber.d(String.valueOf(globalData.getRecovered().getTheValue()));
-            Timber.d(globalData.getLastUpdate());
-            setDataGlobalDataPieChart(globalData);
+            try{
+                Timber.d(String.valueOf(globalData.getConfirmed().getTheValue()));
+                Timber.d(String.valueOf(globalData.getDeath().getTheValue()));
+                Timber.d(String.valueOf(globalData.getRecovered().getTheValue()));
+                Timber.d(globalData.getLastUpdate());
+                setDataGlobalDataPieChart(globalData);
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+
         });
 
         // THE DATA FETCHING PROCESS

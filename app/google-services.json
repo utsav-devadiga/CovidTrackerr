@@ -1,34 +1,41 @@
 {
   "project_info": {
-    "project_number": "26312492511",
-    "firebase_url": "https://covidtracker-2cd6c.firebaseio.com",
-    "project_id": "covidtracker-2cd6c",
-    "storage_bucket": "covidtracker-2cd6c.appspot.com"
+    "project_number": "379197126116",
+    "project_id": "covid-tracker-9abd7",
+    "storage_bucket": "covid-tracker-9abd7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:26312492511:android:8a5ce6843c3a8ff438b06a",
+        "mobilesdk_app_id": "1:379197126116:android:a671b87d06856eb00d03f1",
         "android_client_info": {
           "package_name": "com.example.covidtracker"
         }
       },
       "oauth_client": [
         {
-          "client_id": "26312492511-0ttnkao8k16qbnj37k5a62bo135eh63b.apps.googleusercontent.com",
+          "client_id": "379197126116-4i1apl9u8iffj45t2q5h858ee6r6u42v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.covidtracker",
+            "certificate_hash": "380679268ad2ce41fc55e7a66e4629f0e0654d1b"
+          }
+        },
+        {
+          "client_id": "379197126116-amc505n93krfu3rhtseqi2333u1gut95.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBhHE1OLz2zrHtrW23XUSXA0jFPAJcA-FA"
+          "current_key": "AIzaSyDnFpKXDUFYOeBmHahXD-Rw4Ucl0ipmpYs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "26312492511-0ttnkao8k16qbnj37k5a62bo135eh63b.apps.googleusercontent.com",
+              "client_id": "379197126116-amc505n93krfu3rhtseqi2333u1gut95.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

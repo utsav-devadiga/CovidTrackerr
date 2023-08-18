@@ -64,7 +64,7 @@ dependencies {
     //noinspection LifecycleAnnotationProcessorWithJava8
     annotationProcessor 'android.arch.lifecycle:compiler:1.1.1'
     //parallax
-    implementation 'com.github.nirhart:ParallaxScroll:dd53d1f9d1'
+    //implementation 'com.github.nirhart:ParallaxScroll:dd53d1f9d1'
     //google maps
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
     //butter knife
@@ -74,7 +74,7 @@ dependencies {
     implementation 'com.jakewharton.timber:timber:4.7.1'
     //ratingbar
     implementation 'com.github.sujithkanna:smileyrating:2.0.0'
-    implementation "androidx.core:core-ktx:+"
+    //implementation "androidx.core:core-ktx:1.6.0"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     // Lottie

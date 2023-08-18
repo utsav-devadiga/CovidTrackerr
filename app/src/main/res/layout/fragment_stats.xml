@@ -7,7 +7,7 @@
     android:background="@color/colorPrimary"
     android:orientation="vertical">
 
-    <com.nirhart.parallaxscroll.views.ParallaxScrollView
+    <com.example.covidtracker.view.ParallaxScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         app:parallax_factor="1.5">
@@ -617,6 +617,6 @@
 
         </LinearLayout>
 
-    </com.nirhart.parallaxscroll.views.ParallaxScrollView>
+    </com.example.covidtracker.view.ParallaxScrollView>
 
 </LinearLayout>

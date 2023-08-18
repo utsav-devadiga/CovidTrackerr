@@ -46,8 +46,8 @@ public class RatingDialog {
         ProgressDialog pd = new ProgressDialog(activity);
         pd.setMessage("Please wait...");
 
-
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        String databaseUrl = "https://covid-tracker-9abd7-default-rtdb.firebaseio.com/";
+        FirebaseDatabase database = FirebaseDatabase.getInstance(databaseUrl);
         DatabaseReference db = database.getReference("feedbacks");
 
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
